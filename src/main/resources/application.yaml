@@ -1,0 +1,7 @@
+server:
+  port: 8085
+
+camel.hystrix:
+  circuit-breaker-request-volume-threshold: 5
+  circuit-breaker-error-threshold-percentage: 50
+  metrics-rolling-percentile-window-in-milliseconds: 10000
